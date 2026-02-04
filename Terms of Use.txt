@@ -1,0 +1,151 @@
+Terms of Use
+
+Last updated: (укажи дату, например: March 2026)
+
+These Terms of Use (“Terms”) govern your access to and use of the AI Mixer – AI Generator mobile application and related services (“App”, “Service”, “we”, “our”, or “us”).
+
+By downloading or using AI Mixer, you agree to be bound by these Terms. If you do not agree, please do not use the App.
+
+⸻
+
+1. Description of the Service
+
+AI Mixer is an AI-powered application that allows users to generate:
+	•	AI photos
+	•	AI videos
+	•	AI audio and voice content
+
+The App operates on a credit-based system and offers optional subscription plans.
+
+⸻
+
+2. Credits System
+
+2.1 Credits Usage
+	•	Credits are required to perform AI generation requests.
+	•	Different features and models may require different amounts of credits.
+	•	Credit costs may vary depending on content type and selected AI model.
+
+2.2 Credits Purchase
+	•	Credits can be purchased through in-app purchases.
+	•	All purchases are processed via Apple App Store.
+	•	Credits have no cash value and are non-transferable.
+
+2.3 Credit Expiration
+
+Unless otherwise stated, credits do not expire while the app is active. We reserve the right to change credit policies in the future with notice.
+
+⸻
+
+3. Subscription Plans
+
+3.1 Subscription Benefits
+
+An optional subscription provides:
+	•	50% discount on credit usage
+	•	Access to advanced and premium AI models
+	•	Priority access to new features (where applicable)
+
+3.2 Subscription Billing
+	•	Subscriptions are billed on a recurring basis (monthly or annually, depending on the plan).
+	•	Payment is charged to your Apple ID account upon confirmation.
+	•	Subscription automatically renews unless canceled at least 24 hours before the end of the current period.
+
+3.3 Subscription Management
+
+You can manage or cancel your subscription through:
+	•	App Store → Apple ID → Subscriptions
+
+⸻
+
+4. Refund Policy
+
+All purchases and subscriptions are subject to Apple’s refund policies.
+We do not process refunds directly.
+
+⸻
+
+5. User Content
+
+5.1 Ownership
+
+You retain ownership of any content you upload (photos, videos, audio, text).
+
+5.2 License to Process
+
+By using the App, you grant AI Mixer a limited, non-exclusive license to process your content solely for the purpose of providing AI generation results.
+
+5.3 Prohibited Content
+
+You agree not to upload content that:
+	•	Is illegal, abusive, or hateful
+	•	Violates intellectual property rights
+	•	Contains explicit or harmful material
+	•	Violates privacy or personal rights of others
+
+We reserve the right to block or restrict usage for violations.
+
+⸻
+
+6. AI-Generated Content Disclaimer
+	•	AI-generated results are produced algorithmically and may not always be accurate or perfect.
+	•	AI Mixer does not guarantee specific outcomes or realism.
+	•	Generated content should not be considered professional advice or factual information.
+
+⸻
+
+7. Intellectual Property
+
+All app design, branding, logos, and UI elements are the property of AI Mixer and may not be copied or redistributed without permission.
+
+⸻
+
+8. Service Availability
+
+We reserve the right to:
+	•	Modify or discontinue features
+	•	Update AI models
+	•	Change pricing or credit costs
+
+We are not liable for interruptions or service unavailability.
+
+⸻
+
+9. Limitation of Liability
+
+To the maximum extent permitted by law, AI Mixer shall not be liable for:
+	•	Data loss
+	•	Content inaccuracies
+	•	Indirect or consequential damages
+	•	Misuse of generated content
+
+⸻
+
+10. Termination
+
+We may suspend or terminate access to the App if:
+	•	These Terms are violated
+	•	The App is misused
+	•	Fraud or abuse is detected
+
+⸻
+
+11. Governing Law
+
+These Terms are governed by applicable laws, without regard to conflict of law principles.
+
+⸻
+
+12. Changes to Terms
+
+We may update these Terms from time to time.
+Changes will be posted on this page with an updated date. Continued use means acceptance.
+
+⸻
+
+13. Contact Information
+
+If you have questions regarding these Terms:
+
+📧 Email: aimixerapp@gmail.com
+🌐 Website: https://aimixer.app

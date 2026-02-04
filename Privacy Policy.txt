@@ -1,0 +1,103 @@
+Privacy Policy
+
+Last updated: (укажи дату, например: March 2026)
+
+AI Mixer (“we”, “our”, or “us”) respects your privacy and is committed to protecting it through this Privacy Policy. This document explains how we collect, use, and safeguard your information when you use the AI Mixer – AI Generator mobile application and related services.
+
+⸻
+
+1. Information We Collect
+
+We may collect the following types of information:
+
+1.1 Personal Information
+AI Mixer does not require account registration and does not collect personally identifiable information such as your name, email address, or phone number.
+
+1.2 User Content
+When you use AI Mixer, you may upload:
+	•	Photos
+	•	Videos
+	•	Audio files
+	•	Text prompts
+
+This content is used only to provide the requested AI features (AI photo, video, and voice generation).
+
+Uploaded content may be temporarily stored on our servers to process requests and deliver results.
+
+1.3 Usage Data
+We collect anonymized usage data through Firebase Analytics, such as:
+	•	App interactions
+	•	Feature usage
+	•	Crash reports
+	•	Device type and OS version
+
+This data helps us improve app performance and user experience.
+
+⸻
+
+2. How We Use Your Information
+
+We use collected data to:
+	•	Provide and improve AI features
+	•	Process user-generated content
+	•	Monitor app stability and performance
+	•	Analyze usage trends
+	•	Fix bugs and improve functionality
+
+We do not sell, rent, or trade your data to third parties.
+
+⸻
+
+3. Third-Party Services
+
+AI Mixer uses the following third-party services:
+	•	Firebase Analytics – app usage analytics
+	•	Firebase Storage – temporary storage of user-uploaded content
+
+These services may collect information as governed by their own privacy policies:
+	•	Firebase Privacy Policy:
+https://firebase.google.com/support/privacy
+
+⸻
+
+4. Data Storage and Security
+
+We implement reasonable security measures to protect your data.
+User-generated content is stored only as long as necessary to provide the service and may be automatically deleted after processing.
+
+However, no method of transmission over the internet or electronic storage is 100% secure.
+
+⸻
+
+5. User Rights
+
+You have the right to:
+	•	Stop using the app at any time
+	•	Remove the app from your device
+
+Since we do not collect personal accounts or identifiable data, there is no user profile data stored.
+
+⸻
+
+6. Children’s Privacy
+
+AI Mixer is not intended for children under the age of 13.
+We do not knowingly collect personal information from children.
+
+⸻
+
+7. Changes to This Privacy Policy
+
+We may update this Privacy Policy from time to time.
+Any changes will be posted on this page with an updated “Last updated” date.
+
+Continued use of the app after changes means you accept the updated policy.
+
+⸻
+
+8. Contact Us
+
+If you have any questions or concerns about this Privacy Policy, please contact us:
+
+📧 Email: aimixerapp@gmail.com
+🌐 Website: https://aimixer.app

@@ -377,3 +377,145 @@ body::after {
     transform: none !important;
   }
 }
+
+/* Legal pages */
+.legal-page .site-header {
+  background: rgba(255, 255, 255, 0.12);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.35);
+}
+
+.top-nav a.active {
+  font-weight: 650;
+  color: #14171c;
+}
+
+.legal-main {
+  min-height: 70vh;
+  padding: 64px 0 40px;
+}
+
+.legal-card {
+  width: min(900px, 100%);
+  background: rgba(255, 255, 255, 0.78);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 24px;
+  padding: 32px 34px 40px;
+  box-shadow: 0 22px 46px rgba(15, 24, 38, 0.18);
+  backdrop-filter: blur(10px);
+}
+
+.legal-back {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: #1c2430;
+  text-decoration: none;
+  margin-bottom: 12px;
+}
+
+.legal-title {
+  margin: 0 0 6px;
+  font-size: clamp(2.1rem, 3.6vw, 3rem);
+  letter-spacing: -0.02em;
+}
+
+.legal-updated {
+  margin: 0 0 18px;
+  color: rgba(32, 38, 46, 0.72);
+  font-size: 0.98rem;
+}
+
+.legal-toc {
+  margin: 18px 0 28px;
+  padding: 18px 20px;
+  border-radius: 18px;
+  background: rgba(255, 255, 255, 0.6);
+  border: 1px solid rgba(255, 255, 255, 0.6);
+  box-shadow: 0 10px 24px rgba(15, 24, 38, 0.08);
+}
+
+.legal-toc h2 {
+  margin: 0 0 10px;
+  font-size: 1.1rem;
+}
+
+.legal-toc ul {
+  margin: 0;
+  padding-left: 20px;
+}
+
+.legal-toc a {
+  text-decoration: none;
+  color: #1d2733;
+}
+
+.legal-content {
+  font-size: 1.05rem;
+  line-height: 1.7;
+  color: #1d232b;
+}
+
+.legal-content h1,
+.legal-content h2 {
+  margin: 28px 0 10px;
+  font-size: clamp(1.6rem, 2.6vw, 2.1rem);
+  letter-spacing: -0.01em;
+  position: relative;
+}
+
+.legal-content h1.legal-inline-title {
+  font-size: clamp(1.7rem, 3vw, 2.3rem);
+}
+
+.legal-content p {
+  margin: 0 0 16px;
+}
+
+.legal-content ul {
+  margin: 0 0 18px 18px;
+  padding: 0 0 0 8px;
+}
+
+.legal-content li {
+  margin-bottom: 8px;
+}
+
+.legal-sep {
+  border: none;
+  height: 1px;
+  background: rgba(20, 28, 36, 0.12);
+  margin: 28px 0 14px;
+}
+
+.anchor-link {
+  margin-left: 10px;
+  font-size: 0.9rem;
+  color: rgba(22, 27, 34, 0.5);
+  text-decoration: none;
+  opacity: 0;
+  transition: opacity 0.2s ease, color 0.2s ease;
+}
+
+.legal-content h2:hover .anchor-link {
+  opacity: 1;
+}
+
+.anchor-link.copied {
+  color: rgba(22, 27, 34, 0.85);
+}
+
+@media (max-width: 760px) {
+  .legal-main {
+    padding-top: 38px;
+  }
+
+  .legal-card {
+    padding: 26px 22px 32px;
+  }
+
+  .anchor-link {
+    opacity: 1;
+  }
+}
