@@ -14,16 +14,19 @@ html,
 body {
   margin: 0;
   padding: 0;
+  height: 100%;
+  background-color: #bde7f5;
+  overscroll-behavior-y: none;
 }
 
 body {
   position: relative;
-  min-height: 100%;
+  min-height: 100svh;
   color: var(--text);
   font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "Inter", "Segoe UI", sans-serif;
   line-height: 1.4;
   overflow-x: hidden;
-  background: linear-gradient(118deg, #84d9f0 10%, #bde7f5 38%, #f5dcc6 58%, #efb3a6 100%);
+  background: transparent;
 }
 
 .bg-layer {
@@ -32,6 +35,7 @@ body {
   pointer-events: none;
   z-index: -2;
   background:
+    linear-gradient(118deg, #84d9f0 10%, #bde7f5 38%, #f5dcc6 58%, #efb3a6 100%),
     radial-gradient(circle at 50% 23%, rgba(255, 248, 232, 0.82), rgba(255, 255, 255, 0) 36%),
     radial-gradient(circle at 34% 62%, rgba(136, 225, 244, 0.42), rgba(255, 255, 255, 0) 48%),
     radial-gradient(circle at 70% 57%, rgba(248, 188, 153, 0.32), rgba(255, 255, 255, 0) 44%),
@@ -544,5 +548,15 @@ body::after {
     opacity: 1;
     transform: none;
     filter: none;
+  }
+}
+
+html {
+  background-color: #bde7f5;
+}
+
+@supports (padding: max(0px)) {
+  body {
+    padding-top: env(safe-area-inset-top);
   }
 }

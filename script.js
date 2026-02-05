@@ -37,11 +37,33 @@
   const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
   if (reducedMotion) return;
 
-  const revealItems = document.querySelectorAll('.reveal');
+  const revealItems = Array.from(document.querySelectorAll('.reveal'));
   if (!revealItems.length) return;
 
-  revealItems.forEach((item, index) => {
-    if (index === 0) item.classList.add('reveal-pop');
+  const setDelay = () => {
+    revealItems.forEach((item, index) => {
+      const delay = Math.min(index, 6) * 120;
+      item.style.transitionDelay = `${delay}ms`;
+    });
+  };
+
+  const isInViewport = (el) => {
+    const rect = el.getBoundingClientRect();
+    return rect.top < window.innerHeight * 0.92 && rect.bottom > 0;
+  };
+
+  const revealIfVisible = () => {
+    revealItems.forEach((item) => {
+      if (isInViewport(item)) {
+        item.classList.add('is-visible');
+      }
+    });
+  };
+
+  setDelay();
+
+  requestAnimationFrame(() => {
+    requestAnimationFrame(revealIfVisible);
   });
 
   if ('IntersectionObserver' in window) {
@@ -54,11 +76,11 @@
           }
         });
       },
-      { threshold: 0.22, rootMargin: '0px 0px -6% 0px' }
+      { threshold: 0.18, rootMargin: '0px 0px -8% 0px' }
     );
 
     revealItems.forEach((item) => observer.observe(item));
   } else {
-    revealItems.forEach((item) => item.classList.add('is-visible'));
+    window.addEventListener('scroll', revealIfVisible, { passive: true });
   }
 })();
