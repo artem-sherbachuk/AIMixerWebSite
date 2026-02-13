@@ -33,6 +33,13 @@ We collect anonymized usage data through Firebase Analytics, such as:
 
 This data helps us improve app performance and user experience.
 
+1.4 Face Data
+AI Mixer may process facial imagery in the following features:
+Face Swap
+When you use the Face Swap feature, your uploaded photo may contain facial imagery. This photo is sent to a third-party AI processing server solely to generate the requested image result. We do not extract, store, or use any biometric facial data such as face geometry or facial recognition identifiers. Uploaded photos are deleted from the server immediately after the AI-generated result is delivered. Face data is not shared with any third parties for advertising, analytics, or any other unrelated purpose.
+Lip Detection for Subtitle Alignment (Video Editor)
+The app uses Apple's Vision framework to detect facial landmark positions (such as lip coordinates) for the purpose of aligning subtitles with the speaker's mouth in the video editor. This processing is performed entirely on the user's device using Apple's on-device APIs. No facial landmark data is transmitted to any server, stored persistently, or shared with any third party. The data exists only in device memory during active use and is discarded immediately when processing is complete.
+
 ⸻
 
 2. How We Use Your Information
