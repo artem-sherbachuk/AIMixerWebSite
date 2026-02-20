@@ -35,7 +35,7 @@ This data helps us improve app performance and user experience.
 
 1.4 Face Data
 AI Photo & Video Generation
-When you use AI generation features (such as Face Swap, image-to-image, or image-to-video), your uploaded photo may contain facial imagery. This photo is sent to a third-party AI processing server solely to generate the requested result. We do not extract, store, or use any biometric facial data such as face geometry or facial recognition identifiers. Uploaded photos are deleted from the server after the result is delivered. Face data is not shared with any third parties for advertising, analytics, or any other unrelated purpose.
+When you use AI generation features (such as Face Swap, image-to-image, or image-to-video), your uploaded photo may contain facial imagery. This photo may be transmitted to the third-party AI providers listed in Section 3 solely to generate the requested result. We do not extract, store, or use any biometric facial data such as face geometry or facial recognition identifiers. Uploaded photos are deleted from the server after the result is delivered. Face data is not shared with any third parties for advertising, analytics, or any other unrelated purpose.
 
 Lip Detection for Subtitle Alignment (Video Editor)
 The app uses Apple's Vision framework to detect facial landmark positions (such as lip coordinates) for the purpose of aligning subtitles with the speaker's mouth in the video editor. This processing is performed entirely on the user's device using Apple's on-device APIs. No facial landmark data is transmitted to any server, stored persistently, or shared with any third party. The data exists only in device memory during active use and is discarded immediately when processing is complete.
@@ -55,15 +55,60 @@ We do not sell, rent, or trade your data to third parties.
 
 ⸻
 
-3. Third-Party Services
+3. Third-Party AI Processing
 
-AI Mixer uses the following third-party services:
-	•	Firebase Analytics – app usage analytics
-	•	Firebase Storage – temporary storage of user-uploaded content
+To provide AI-powered features (including AI photo generation, video generation, voice synthesis, and AI chat), AI Mixer transmits user-submitted content to third-party AI service providers for processing.
 
-These services may collect information as governed by their own privacy policies:
-	•	Firebase Privacy Policy:
-https://firebase.google.com/support/privacy
+3.1 What Data Is Transmitted
+
+When you use AI features, the following data may be transmitted:
+
+• Text prompts
+• Uploaded photos or videos
+• Audio recordings
+• Generated outputs
+• Technical metadata necessary to process the request (e.g., model selection, request ID)
+
+We do not transmit name, email address, contact lists, or other direct identifiers.
+
+3.2 AI Service Providers
+
+AI Mixer may use the following AI providers and infrastructure partners:
+
+• OpenAI (ChatGPT)
+• Google (Gemini)
+• ElevenLabs
+• Kling AI
+• Sora
+• Veo
+• WAN
+• Firebase Storage – temporary storage of user-uploaded content
+
+These providers process user content solely to generate the requested output.
+
+3.3 Purpose of Processing
+
+User content is transmitted only when the user actively initiates an AI generation request.
+The data is used exclusively to generate the requested result.
+
+We do not use user content for advertising purposes.
+
+By initiating an AI generation request within the app, users acknowledge and consent to the transmission of their content to the AI providers described above.
+
+3.4 Data Retention
+
+User-submitted content is stored only as long as necessary to process and deliver the requested result.
+
+Content is automatically deleted after processing is completed.
+
+We do not create persistent user profiles based on AI inputs. 
+
+3.5 AI Model Training
+
+AI Mixer does not use user content to train its own AI models.
+Third-party AI providers may process content in accordance with their own privacy policies and data processing terms.
+
+Users are encouraged to review the privacy policies of those providers for additional details.
 
 ⸻
 
