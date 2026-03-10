@@ -170,6 +170,21 @@ body::after {
   letter-spacing: -0.02em;
 }
 
+.ph-badge {
+  display: block;
+  margin-top: 14px;
+}
+
+.ph-badge img {
+  width: 190px;
+  height: auto;
+  transition: transform 0.2s ease;
+}
+
+.ph-badge:hover img {
+  transform: translateY(-2px);
+}
+
 .hero-phone-wrap {
   margin: 28px auto 0;
   width: min(430px, 84vw);
