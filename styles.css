@@ -275,6 +275,25 @@ body::after {
   padding-bottom: 32px;
 }
 
+.qr-code {
+  margin-top: 28px;
+}
+
+.qr-code img {
+  width: 160px;
+  height: 160px;
+  border-radius: 16px;
+  background: #fff;
+  padding: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+}
+
+.qr-code p {
+  margin-top: 8px;
+  font-size: 0.9rem;
+  color: #555;
+}
+
 .site-footer {
   text-align: center;
   padding: 8px 0 44px;
