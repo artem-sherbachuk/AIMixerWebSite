@@ -47,7 +47,8 @@ Unless otherwise stated, credits do not expire while the App is active. We reser
 
 An optional subscription may provide:
 
-• Discounted credit usage (e.g., 50% discount)
+• Discounted or included credit usage for standard operations (e.g., up to 50% reduced cost)
+• “Unlimited” usage for standard features, subject to fair usage limits (see Section 3.5)
 • Access to advanced and premium AI models
 • Priority access to new features (where applicable)
 
@@ -80,6 +81,22 @@ Deleting the App does not cancel your subscription.
 If a subscription includes a free trial period, any unused portion of the trial will be forfeited when you purchase a subscription, where applicable.
 
 Promotional pricing or discounts may be offered from time to time and may be subject to additional terms.
+
+3.5 Fair Usage & Unlimited Access
+
+Some subscription plans may be advertised as providing “unlimited” access.
+
+“Unlimited” usage refers to standard, reasonable personal use of the Service.
+
+Due to the high computational cost of certain AI features (including but not limited to video generation, voice synthesis, and high-resolution outputs), usage may be subject to fair use limits to ensure system stability and availability for all users.
+
+We reserve the right to:
+
+• Apply temporary usage limits or rate limits
+• Require additional credits for high-volume or resource-intensive requests
+• Restrict excessive or abnormal usage patterns
+
+These measures are designed to prevent abuse, maintain service quality, and ensure fair access for all users.
 
 ⸻
 
